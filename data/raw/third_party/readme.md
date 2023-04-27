@@ -10,6 +10,7 @@
 | IMF | International Monetary Fund |  |  |
 | IEA | International Energy Agency | CC (Creative Commons) | https://www.iea.org/terms |
 | OECD | Organization for Economic Co-operation and Development |  |  |
+| OPEC | Organization of Oil Producing Countries |  |  |
 
 ## Sources
 
@@ -22,3 +23,5 @@
 | Electricity Consumption | IEA | https://www.iea.org/data-and-statistics/data-product/monthly-oil-statistics |
 | Energy Efficiency Indicator Highlights | IEA | https://www.iea.org/data-and-statistics/data-product/energy-efficiency-indicators-highlights |
 | oecd.csv | OECD | https://data.oecd.org/unemp/unemployment-rate.htm |
+| World's Natural Gas Import by Country | OPEC | https://asb.opec.org/data/ASB_Data.php |
+| World's Petroleum Product Import by Country | OPEC | https://asb.opec.org/data/ASB_Data.php |
