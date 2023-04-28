@@ -15,17 +15,16 @@
 
 ## Sources
 
-| Name | Organization | URI |
+| Organization | Name | URI |
 |------|--------------|-----|
-| GDP and Components | IMF | https://data.imf.org/regular.aspx?key=61545852 |
-| Central Banking Interest Rates | IMF | https://data.imf.org/regular.aspx?key=61545855 |
-| Prices, Production and Labor | IMF | https://data.imf.org/regular.aspx?key=61545849 |
-| Monthly Oil Statistics | IEA | https://www.iea.org/data-and-statistics/data-product/monthly-oil-statistics |
-| Monthly Gas Statistics | IEA | https://www.iea.org/data-and-statistics/data-product/monthly-gas-statistics |
-| Monthly Electricity Statistics | IEA | https://www.iea.org/data-and-statistics/data-product/monthly-electricity-statistics |
-| Energy Efficiency Indicator Highlights | IEA | https://www.iea.org/data-and-statistics/data-product/energy-efficiency-indicators-highlights |
-| Gas Trade Flows | IEA | https://www.iea.org/data-and-statistics/data-product/gas-trade-flows |
-| Monthly Unemployment Rate | OECD | https://data.oecd.org/unemp/unemployment-rate.htm |
-| Yearly Infrastructure Investments in Euro | OECD | https://data.oecd.org/transport/infrastructure-investment.htm#indicator-chart |
-| World's Natural Gas Import by Country | OPEC | https://asb.opec.org/data/ASB_Data.php |
-| World's Petroleum Product Import by Country | OPEC | https://asb.opec.org/data/ASB_Data.php |
+| IMF | GDP and Components | https://data.imf.org/regular.aspx?key=61545852 |
+| IMF | Central Banking Interest Rates | https://data.imf.org/regular.aspx?key=61545855 |
+| IMF | Prices, Production and Labor | https://data.imf.org/regular.aspx?key=61545849 |
+| IEA | Monthly Oil Statistics | https://www.iea.org/data-and-statistics/data-product/monthly-oil-statistics |
+| IEA | Monthly Gas Statistics | https://www.iea.org/data-and-statistics/data-product/monthly-gas-statistics |
+| IEA | Monthly Electricity Statistics | https://www.iea.org/data-and-statistics/data-product/monthly-electricity-statistics |
+| IEA | Energy Efficiency Indicator Highlights | https://www.iea.org/data-and-statistics/data-product/energy-efficiency-indicators-highlights |
+| IEA | Gas Trade Flows | https://www.iea.org/data-and-statistics/data-product/gas-trade-flows |
+| OECD | Yearly Infrastructure Investments in Euro | https://data.oecd.org/transport/infrastructure-investment.htm#indicator-chart |
+| OPEC | World's Natural Gas Import by Country | https://asb.opec.org/data/ASB_Data.php |
+| OPEC | World's Petroleum Product Import by Country | https://asb.opec.org/data/ASB_Data.php |
