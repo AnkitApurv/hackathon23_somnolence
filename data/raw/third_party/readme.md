@@ -1,16 +1,17 @@
 # Third Part Datasets
 
 - Must be open-source
+- Must be publicly available
 - Link to such datasets must be documented here
 
 ## Source Organizations
 
 | Organization | Name | License | Terms and Conditions Page |
 |--------------|------|---------|---------------------------|
-| IMF | International Monetary Fund |  |  |
+| IMF | International Monetary Fund | Personal, Non-Commercial, Research purpose use allowed | https://www.imf.org/external/terms.htm |
 | IEA | International Energy Agency | CC (Creative Commons) | https://www.iea.org/terms |
-| OECD | Organization for Economic Co-operation and Development |  |  |
-| OPEC | Organization of Oil Producing Countries |  |  |
+| OECD | Organization for Economic Co-operation and Development |  | https://www.oecd.org/termsandconditions/ |
+| OPEC | Organization of Oil Producing Countries | Lawful usage only, no redistribution or republication allowed | https://www.opec.org/opec_web/en/35.htm |
 
 ## Sources
 
