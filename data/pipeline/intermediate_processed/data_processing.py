@@ -1,3 +1,4 @@
+import numpy
 import pandas
 
 def t_unemployment_rate(df: pandas.DataFrame) -> pandas.DataFrame:
@@ -103,6 +104,9 @@ def t_gdp_current(df: pandas.DataFrame) -> pandas.DataFrame:
     # drop unnecessary data
     df = df.drop(columns = ['Indicator_Code', 'Scale'], inplace = False)
 
+    # fix data discrepancy
+    df = df.replace('^-$', numpy.NaN, regex = True).replace('^...$', numpy.NaN, regex = True).astype(float, errors = 'ignore')
+
     # ensure proper future column names
     df['Indicator'] = df['Indicator'].str.replace(', ','|').str.replace(' ', '_')
 
@@ -125,6 +129,9 @@ def t_gdp_current(df: pandas.DataFrame) -> pandas.DataFrame:
 def t_gdp_constant(df: pandas.DataFrame) -> pandas.DataFrame:
     # drop unnecessary data
     df = df.drop(columns = ['Indicator_Code', 'Scale'], inplace = False)
+
+    # fix data discrepancy
+    df = df.replace('^-$', numpy.NaN, regex = True).replace('^...$', numpy.NaN, regex = True).astype(float, errors = 'ignore')
 
     # ensure proper future column names
     df['Indicator'] = df['Indicator'].str.replace(', ','|').str.replace(' ', '_')
