@@ -1,0 +1,10 @@
+name: env-prophet
+channels:
+  - defaults
+dependencies:
+  - python
+  - ipykernel # pre-requisite for treating env as jupyter kernel
+  - pandas
+  - neuralprophet
+  - scikit-learn
+  - openpyxl # pre-requisite for pandas.read_excel()

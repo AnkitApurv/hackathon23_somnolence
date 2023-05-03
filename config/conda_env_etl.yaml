@@ -1,0 +1,11 @@
+name: env-etl
+channels:
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+    - ipykernel # pre-requisite for treating env as jupyter kernel
+    - pandas
+    - lxml # pre-requisite for pandas.read_html()
+    - openpyxl # pre-requisite for pandas.read_excel()

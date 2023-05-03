@@ -1,4 +1,4 @@
-name: env-hackathon23_somnolence_ankit
+name: env-prophet
 channels:
   - defaults
 dependencies:
@@ -7,5 +7,6 @@ dependencies:
   - pip:
     - ipykernel # pre-requisite for treating env as jupyter kernel
     - pandas
-    - lxml # pre-requisite for pandas.read_html()
-    - openpyxl # pre-requisite for pandas.read_html()
+    - prophet
+    - scikit-learn
+    - openpyxl # pre-requisite for pandas.read_excel()
