@@ -1,4 +1,4 @@
-name: env-prophet
+name: env-eda
 channels:
   - defaults
 dependencies:
@@ -7,10 +7,5 @@ dependencies:
   - pip:
     - ipykernel # pre-requisite for treating env as jupyter kernel
     - pandas
-    - prophet
-    - scikit-learn
     - openpyxl # pre-requisite for pandas.read_excel()
-    - plotly
-    - jupyter
-    - ipywidgets
-run: jupyter nbextension enable --py widgetsnbextension
+    - bokeh
