@@ -1,0 +1,15 @@
+name: env-lstm
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - ipykernel # pre-requisite for treating env as jupyter kernel
+  - pandas
+  - openpyxl # pre-requisite for pandas.read_excel()
+  - matplotlib
+  - statsmodels
+  - scikit-learn
+  - tensorflow
+  - keras
+  - keras-tuner
