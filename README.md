@@ -4,20 +4,30 @@
 
 Build ML model/models to predict the unemployment rate of G7 countries.
 
-
 ## Credits
 
 * Ankit
-  * Searching and combining datasets.
+  * Searched and combined datasets.
+  * Explored model approaches
+    * Prophet (Time-series, Univariate)
   * Countries -> France, Germany, Italy.
 * Pradeep
-  * Exploring model approaches.
+  * Explored model approaches.
+    * LSTM (Regression, Multivariate)
+    * ARIMA (Time-series, Univariate)
   * Country -> Japan.
-* Sakshi
-  * Countries -> Canada, USA. [TBD on 3, 4 May]
 * Shreshth
-  * Exploring model approaches.
+  * Explored model approaches.
+    * VAR (Regression, Multivariate)
+    * ARIMA (Time-series, Univariate)
+    * Granger Causality test (Feature elimination)
   * Country -> UK.
-
+* Shared
+  * Countries -> Canada, USA.
 
 ## Competition closes on 10th May, 2023
+
+
+## Results and Documents
+
+[https://drive.google.com/drive/folders/1YvNcMcQ3wTVaM3_vU01UezlCAfyMAY-f?usp=share_link](https://drive.google.com/drive/folders/1YvNcMcQ3wTVaM3_vU01UezlCAfyMAY-f?usp=share_link "Google Drive")
